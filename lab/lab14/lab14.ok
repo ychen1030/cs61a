@@ -1,0 +1,44 @@
+{
+    "name": "Lab 14",
+    "endpoint": "cal/cs61a/su17/lab14",
+    "src": [
+        "lab14.py",
+        "lab14.scm"
+    ],
+    "tests": {
+        "lab14.py:remove_all": "doctest",
+        "lab14.py:reverse_other": "doctest",
+        "lab14.py:Mint": "doctest",
+        "tests/accumulate.py": "ok_test",
+        "tests/how-many-dots.py": "ok_test",
+        "tests/swap.py": "ok_test",
+        "lab14.py:Str": "doctest",
+        "lab14.py:ListDictIter": "doctest",
+        "lab14.py:pairs": "doctest",
+        "lab14.py:PairsIterator": "doctest",
+        "lab14.py:cycle": "doctest",
+        "lab14.py:rle": "doctest"
+    },
+    "default_tests": [
+        "remove_all",
+        "reverse_other",
+        "Mint",
+        "accumulate",
+        "how-many-dots",
+        "swap",
+        "Str",
+        "ListDictIter",
+        "pairs",
+        "PairsIterator",
+        "cycle",
+        "rle"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}
